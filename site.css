@@ -29,6 +29,12 @@ a:visited {
     color: #7A594B;
 }
 
+p {
+    font-family: 'Roboto', Verdana, 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
 #image-gallery {
     margin-top: 10%;
     display: grid;
@@ -37,7 +43,7 @@ a:visited {
 
 #page-title {
     text-align: center;
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-family: 'Roboto', Verdana, 'Rubik', sans-serif;
     font-weight: 400;
 }
 
@@ -48,7 +54,7 @@ img {
 
 .gallery-title {
     text-align: center;
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-family: 'Roboto', Verdana, 'Rubik', sans-serif;
     font-weight: 400;
 }
 
@@ -57,7 +63,7 @@ figure {
 }
 
 figcaption {
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-family: 'Roboto', Verdana, 'Rubik', sans-serif;
     font-style: italic;
     font-size: .75em;
     font-weight: 400;
