@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', Verdana, 'Rubik', sans-serif;
+}
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+    background-color: #E8FFFC;
+    color: #7A594B;
+    border: 1px solid #577A75;
+    padding: 10px;
+}
+
+a {
+    color: #C7ACA1;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #C7ACA1;
+    color: #7A594B;
+}
+
+a:visited {
+    color: #7A594B;
+}
