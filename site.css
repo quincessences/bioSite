@@ -44,7 +44,7 @@ p {
     border: 2px solid #C7ACA1;
     border-radius: 5px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     align-items: center;
 }
 
