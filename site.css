@@ -43,7 +43,6 @@ p {
     gap: 1rem;
     align-items: center;
     max-width: 800px;
-    margin: 0 auto;
 }
 
 #image-gallery {
