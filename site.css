@@ -2,7 +2,13 @@ body {
     font-family: 'Roboto', Verdana, 'Rubik', sans-serif;
     background-color: rgb(231, 232, 233);
     display: grid;
-    grid-template-columns: min-content 1fr;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
 }
 
 #container {
@@ -39,12 +45,6 @@ p {
     line-height: 1.4em;
     border: 2px solid #C7ACA1;
     border-radius: 5px;
-    display: grid;
-    padding: 2rem;
-    grid-template-columns: 300px 1fr;
-    gap: 1rem;
-    align-items: center;
-    max-width: 800px;
 }
 
 #image-gallery {
