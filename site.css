@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', Verdana, 'Rubik', sans-serif;
+    background-color: rgb(198, 200, 201);
 }
 
 #container {
@@ -10,8 +11,8 @@ body {
 
 h1, h2, h3, h4 {
     background-color: #E8FFFC;
-    color: #7A594B;
-    border: 1px solid #577A75;
+    color: #000000;
+    border: 1px solid #0b0c0c;
     padding: 10px;
 }
 
@@ -71,11 +72,11 @@ figcaption {
 }
 
 h1, h3, figcaption {
-    color: rgba(185, 63, 8, 1);
+    color: rgb(12, 10, 10);
 }
 
 .gallery-item {
-    border: 1px solid rgba(185, 63, 8, 1);
+    border: 1px solid rgb(5, 5, 4);
     border-radius: 5px;
     padding: 5px;
 }
