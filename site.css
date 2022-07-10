@@ -48,8 +48,8 @@ p {
 }
 
 img {
-    width: 400px;
-    height: 350px;
+    width: 450px;
+    height: 400px;
 }
 
 .gallery-title {
@@ -75,6 +75,6 @@ h1, h3, figcaption {
 
 .gallery-item {
     border: 1px solid rgba(185, 63, 8, 1);
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 5px;
 }
