@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', Verdana, 'Rubik', sans-serif;
     background-color: rgb(231, 232, 233);
     display: grid;
+    grid-template-columns: auto;
     padding: 2rem;
     gap: 1rem;
     align-items: center;
