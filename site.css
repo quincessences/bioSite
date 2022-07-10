@@ -55,7 +55,7 @@ img {
     width: 450px;
     height: 400px;
     float: left;
-    padding: 5px
+    margin: 0px 0px 15px 20px;
 }
 
 .gallery-title {
