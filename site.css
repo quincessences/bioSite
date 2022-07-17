@@ -54,6 +54,8 @@ h2, h3, h4 {
     display: grid;
     grid-template-columns: 33.333% 33.333% 33.333%;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #grid figure img {
@@ -67,12 +69,12 @@ figcaption {
     font-family: 'Roboto', Verdana, 'Rubik', sans-serif;
     text-align: center;
     font-weight: 400;
-    color: #0000FF;
+    color: #e5e5e5;
 }
 
 #photo-sergey {
     float: left;
-    width: 400px;
+    width: 450px;
     height: auto;
     padding-right: 20px;
     object-fit: contain;
