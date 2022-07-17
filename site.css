@@ -1,8 +1,10 @@
 body {
     font-family: 'Roboto', Verdana, 'Rubik', sans-serif;
     background-color: #060606;
-    padding:0; 
-    margin:0;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 
 header {
@@ -53,8 +55,8 @@ h2, h3, h4 {
 }
 
 #grid figure img {
-    width:  100px;
-    height: 100px;
+    width:  350px;
+    height: 350px;
     object-fit: cover;
     border: 2px solid #0000FF;
 }
@@ -85,6 +87,7 @@ p {
     font-weight: 400;
     line-height: 1.4em;
     align-items: center;
+    color: #e5e5e5;
 }
 
 footer{
