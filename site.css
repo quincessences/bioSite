@@ -18,10 +18,12 @@ header {
     background-color: #060606;
     overflow: hidden;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px; 
 }
 
 #navbar a {
-    float: left;
     display: flex;
     justify-content: center;
     color: #e5e5e5;
@@ -53,15 +55,10 @@ h2, h3, h4 {
 }
 
 #grid figure img {
-    width:  350px;
-    height: 350px;
+    width:  450px;
+    height: 450px;
     object-fit: cover;
     border: 2px solid #0000FF;
-}
-
-figure {
-    border: 2px solid #0F261E;
-    display: block;
 }
 
 figcaption {
@@ -74,9 +71,9 @@ figcaption {
 
 #photo-sergey {
     float: left;
-    width: 350px;
+    width: 400px;
     height: auto;
-    padding: 20px;
+    padding-right: 20px;
 }
 
 p {
@@ -93,6 +90,5 @@ footer{
     position: absolute;
     width: 100%;
     background-color: #060606;
-    color: #0000FF;
     font-weight: 400;
 }
