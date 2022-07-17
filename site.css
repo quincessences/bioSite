@@ -15,7 +15,7 @@ header {
 }
 
 #navbar {
-    background-color: #060606;
+    background-color: #0000FF;
     overflow: hidden;
     text-align: center;
     display: flex;
@@ -28,6 +28,7 @@ header {
     justify-content: center;
     color: #e5e5e5;
     font-size: 24px;
+    padding: 15px; 
 }
 
 #navbar a:hover {
@@ -55,8 +56,8 @@ h2, h3, h4 {
 }
 
 #grid figure img {
-    width:  450px;
-    height: 450px;
+    width:  475px;
+    height: 475px;
     object-fit: cover;
 }
 
@@ -90,4 +91,11 @@ footer{
     width: 100%;
     background-color: #060606;
     font-weight: 400;
+}
+
+.content-wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
