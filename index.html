@@ -2,62 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>bioSite by Maria Michaels</title>
+    <title>bioSite: Home</title>
     <link rel="stylesheet" type="text/css" href="site.css" />
     <link href="https://fonts.google.com/share?selection.family=Roboto%20Condensed:ital,wght@0,400;0,700;1,400%7CRubik:wght@400;500" rel="stylesheet">
 
 </head>
 <body>
-    <div id="container">
-        <h1>bioSite: Sergey Tolstikov</h1>
-        <h2>CSD 340 Web Development with HTML and CSS</h2>
-
-        <hr />
-
-        <h3>Learn More About Sergey</h3>
-        <ul>
-            <li>
-                <a href="michaels_About.html">About</a>
-            </li>
-            <li>
-                <a href="michaels_Hobbies.html">Hobbies</a>
-            </li>
-        </ul>
-        
-        <div id="image-gallery">
-            <div class="gallery-item">
-                <h3 class="gallery-title">Work from Home - Anywhere in the World</h3>
-    
-                <figure>
-                    <img src="images/nathan-riley-9q3I8XhesQI-unsplash.jpg" alt="">
-    
-                    <figcaption>(Author: Nathan Riley)</figcaption>
-                </figure>
-    
-            </div>
-            
-            <div class="gallery-item">
-                <h3 class="gallery-title">Retirement in New Zealand</h3>
-    
-                <figure>
-                    <img src="images/nate-johnston-6ajf6BAyYt4-unsplash.jpg" alt="">
-    
-                    <figcaption>(Author: Nate Johnston)</figcaption>
-                </figure>
-    
-            </div>
-            
-            <div class="gallery-item">
-                <h3 class="gallery-title">Conservatory Degree in Classical Music</h3>
-    
-                <figure>
-                    <img src="images/marius-masalar-rPOmLGwai2w-unsplash.jpg" alt="">
-    
-                    <figcaption>(Author: Marius Masalar)</figcaption>
-                </figure>
-    
-            </div>
-        </div>   
+    <div>
+        <!-- header -->
+        <header>
+            bioSite: Sergey Tolstikov
+        </header>
+        <!-- navigation -->
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="michaels_About.html">About</a>
+            <a href="michaels_Hobbies.html">Hobbies</a>
+        </div>
+        <!-- gallery header -->
+        <h2>Sergey's Goals and Aspirations</h2>
+        <!-- grid goals gallery -->
+        <div id="grid">
+            <figure>
+                <img src="images/nathan-riley-9q3I8XhesQI-unsplash.jpg">
+                <figcaption>Keeping work remote and varied.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/nate-johnston-6ajf6BAyYt4-unsplash.jpg">
+                <figcaption>Retiring in New Zealand.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/marius-masalar-rPOmLGwai2w-unsplash.jpg" alt="">
+                    <figcaption>Playing Chopin every morning.</figcaption>
+            </figure>
+        </div> 
     </div>
+    <footer>
+        <p>
+            ⓒ Maria Michaels
+            CSD 340 Web Development with HTML and CSS
+        </p>
+    </footer>
 </body>
 </html>
